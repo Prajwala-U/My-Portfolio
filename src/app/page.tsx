@@ -225,7 +225,7 @@ const experience = [
     ],
   },
   {
-    company: "Knowledge is Power Tutorials, Bnglr",
+    company: "Knowledge is Power Tutorials, Bengaluru",
     role: "Tutor & Founder",
     date: "May'22 - Present",
     points: [
@@ -233,7 +233,7 @@ const experience = [
     ],
   },
   {
-    company: "Cloud Education Center, Bangalore",
+    company: "Cloud Education Center, Bengaluru",
     role: "Educator & Tutor",
     date: "Apr'24 - Aug'24",
     points: [

@@ -36,6 +36,15 @@ export const metadata: Metadata = {
       "AI & Software Engineer experienced in Generative AI, QA Automation, Playwright, and Enterprise SaaS applications.",
     type: "website",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({

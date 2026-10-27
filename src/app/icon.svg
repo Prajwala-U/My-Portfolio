@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0e1a" />
+      <stop offset="100%" stop-color="#0a0a0f" />
+    </linearGradient>
+
+    <!-- Outer Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- P Letter Gradient (Indigo to Violet) -->
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <!-- U Letter Gradient (Violet to Cyan) -->
+    <linearGradient id="uGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Ambient Center Glow -->
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14" fill="url(#centerGlow)" />
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14" fill="none" stroke="url(#borderGrad)" stroke-width="2" />
+
+  <!-- Monogram P -->
+  <path
+    d="M 12 17 H 26 C 30.5 17 34 20.5 34 25 C 34 29.5 30.5 33 26 33 H 18 V 47 H 12 Z M 18 22 V 28 H 25.5 C 27.2 28 28.5 26.7 28.5 25 C 28.5 23.3 27.2 22 25.5 22 Z"
+    fill="url(#pGrad)"
+    fill-rule="evenodd"
+  />
+
+  <!-- Monogram U -->
+  <path
+    d="M 36 17 H 42 V 37.5 C 42 40 43.2 41.5 45 41.5 C 46.8 41.5 48 40 48 37.5 V 17 H 54 V 37.5 C 54 43.8 49.8 47 45 47 C 40.2 47 36 43.8 36 37.5 Z"
+    fill="url(#uGrad)"
+  />
+</svg>
